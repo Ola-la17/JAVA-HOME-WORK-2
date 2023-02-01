@@ -1,15 +1,16 @@
 // Реализуйте алгоритм сортировки пузырьком числового массива, результат после каждой итерации запишите в лог-файл.
-// *
+/ *
 
 
 package HW2;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 
 
-public class hw2_2 {
+public class HW2 {
     private static File log;
     private static FileWriter fileWriter;
 
