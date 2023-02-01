@@ -1,4 +1,4 @@
-/* Дана json строка (можно сохранить в файл и читать из файла)
+/* Дана json строка 
 [{"фамилия":"Иванов","оценка":"5","предмет":"Математика"},{"фамилия":"Петрова","оценка":"4","предмет":"Информатика"},{"фамилия":"Краснов","оценка":"5","предмет":"Физика"}]
 Написать метод(ы), который распарсит json и, используя StringBuilder, создаст строки вида: Студент [фамилия] получил [оценка] по предмету [предмет].
 Пример вывода:
@@ -8,7 +8,7 @@
 
 public class task1 {
     public static void main(String[] args) throws Exception {
-        String [] arrayData =  lib.ReadLineFromFile("dataForTask3.txt");
+        String [] arrayData =  lib.ReadLineFromFile("dataForTask1.txt");
         for(int i = 0; i < arrayData.length; i++) {
             System.out.println(PrintLine(arrayData[i]));
         }
